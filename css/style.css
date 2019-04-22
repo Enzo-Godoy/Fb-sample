@@ -33,36 +33,4 @@ header img {
 	display: inline-block;
 }
 
-#register form ul li {	
-	display: inline-block;
-}
-
-#email { 
-	display: block;
-	width: 150px;	
-	margin-top: 10px;
-
-}
-
-form label :nth-child(1n){
-	margin-top: 10px;
-	padding: 0px;
-}
-
-#pass { 	
-	display: block;
-	width: 150px;
-	margin-top: 10px;
-}
-
-
-
-form button {
-	float:right;
-	margin-top:10px;
-	float: right;
-}
-
-
-
 
