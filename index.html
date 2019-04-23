@@ -2,39 +2,47 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Facebook - Inicio</title>
 </head>
 <body>
 	<header >
-		<img src="logo">
+		<img src="./img/logo-fb.png">
 
-		
-			<form>
-					<label for="email" id="label"> 
-						Correo electrónico o teléfono
-					</label>
-						<input type="text" id="email" value="">
+		<table>
+			<tr>
+				<form id="registro">
+					<td>  <label for="email" class="label"> 
+							Correo electrónico o teléfono  </label> </td>
+					<td> <label for="pass" class="label">	Contraseña </label>  </td>	
+					<td></td>
+			</tr>
+		    <tr>
+					<td>  <input type="text" id="email" value=""> </td>
+					<td>  <input type="text" id="pass" value="">  </td>
+					<td> <button ID="btn-log">Iniciar sesión.	</button>  </td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>  <a href="#" id="rec-loggin">¿Olvidaste tu cuenta?</a>   </td>
+			</tr>
 					
-					
-					<label for="pass" id="label">
-						Contraseña
-					</label>
-					<input type="text" id="pass" value="">
-					<a href="#">¿Olvidaste tu cuenta?</a>
-					
-					<button>
-						Iniciar sesión.
-					</button>
-				
-			</form>
-		
-
-
+				</form>				
+		</table>
 	</header>
-	<section>
 
-	</section>
+	<main id="main">
+		<section id="central">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		</section>
+	</main>
 	<footer>
 
 	</footer>
